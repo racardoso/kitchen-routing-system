@@ -1,0 +1,25 @@
+Problem #1 – The Kitchen Routing System
+
+Write down your assumptions whenever necessary for better understanding.
+
+You are tasked with writing a piece of software to do a Restaurant Order Routing. Assume that you have
+a restaurant with multiple POS (point-of-sale) instances sending orders that should be routed to specific
+areas of a kitchen.
+
+It must comprise a multi-thread safe dynamic library with:
+
+- A function to receive an Order with multiple products and place it in a queue representing a
+destination kitchen area;
+- A function to receive the list of products in a Kitchen area;
+- A function to remove and return the first product from a Kitchen area;
+- A simple application, console or graphical to test the dynamic library.
+
+Create a C++ solution in Visual Studio.
+
+We really encourage you to write down any assumptions you had as comments on the top of your code
+for better understanding.
+
+Requirements:
+- The application must be executable in Windows machines;
+- You don't have to worry about databases; it&#39;s fine to use in-process, in-memory storage;
+- It must be production quality according to your understanding of it - README, etc.

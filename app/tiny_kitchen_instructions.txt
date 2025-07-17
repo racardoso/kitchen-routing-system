@@ -1,0 +1,42 @@
+Tiny Kitchen System - Quick Guide
+
+1.    Create a New Kitchen
+
+        Select Option 1 to initialize a new kitchen.
+        (Prerequisite for adding areas/menus.)
+
+2.    Add Kitchen Areas
+
+        Select Option 2 to add one or more kitchen areas (e.g., "Grill," "Salad Station").
+        (Required before making orders.)
+
+3.    Edit Menu
+
+        Select Option 4 to add/update menu items.
+
+        Specify: Item ID, Name, and Associated Kitchen Area.
+
+4.    Make an Order
+
+        Select Option 6 to place an order.
+
+        Provide: Menu Name, Item ID, and Quantity.
+        (Orders are queued in the respective kitchen area.)
+
+5.    Take Item from Kitchen
+
+        Select Option 7 to collect the next ready item.
+
+        System removes the oldest item from the selected kitchen area’s queue.
+
+6   View Data
+
+        Option 3: List all kitchen areas.
+
+        Option 5: Show all menus/items.
+
+ 7.   Exit
+
+        Select Option 8 to close the system.
+
+Flow: Create Kitchen → Add Areas → Edit Menu → Order → Take Item.
